@@ -12,7 +12,7 @@ const input = props => {
       <p className={classes.InvalidMessage}>Please enter a valid value!</p>
     );
   }
-  let c = "";
+  //let c = "";
   switch (props.elementType) {
     case "input":
       inputElement = (
